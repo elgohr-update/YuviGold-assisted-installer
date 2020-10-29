@@ -31,11 +31,3 @@ require (
 	sigs.k8s.io/controller-runtime v0.6.2
 )
 
-replace (
-	github.com/metal3-io/baremetal-operator => github.com/openshift/baremetal-operator v0.0.0-20200715132148-0f91f62a41fe // Use OpenShift fork
-	k8s.io/api => k8s.io/api v0.18.2
-	k8s.io/apimachinery => k8s.io/apimachinery v0.18.2
-	k8s.io/client-go => k8s.io/client-go v0.18.2
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20200214080538-dc8f3adce97c
-	sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.5.1-0.20200330174416-a11a908d91e0
-)
